@@ -4,7 +4,6 @@ FROM python:3.9
 # Set environment variables
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
-ENV DATABASE_URL postgresql://user:password@db:5432/news
 
 #working directory
 WORKDIR /app
